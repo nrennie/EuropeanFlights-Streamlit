@@ -9,7 +9,7 @@ from mizani.breaks import date_breaks
 from mizani.formatters import date_format
 
 # Read in data
-flights = pd.read_csv('https://raw.githubusercontent.com/nrennie/EuropeanFlights-Python/main/app/flights_data.csv')
+flights = pd.read_csv('https://raw.githubusercontent.com/nrennie/EuropeanFlights-Streamlit/main/app/flights_data.csv')
 
 # Function to make the plot
 def create_plot(data):
